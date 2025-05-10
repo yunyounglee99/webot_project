@@ -1,0 +1,28 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3at.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.25208119408030616 -0.06603085766274808 0.9654506706338594 3.6370132330618343
+  position 3.7876426149241973 3.1783603836180427 2.042041295553266
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 50 50
+}
+Pioneer3at {
+  extensionSlot [
+    Lidar {
+    }
+    Camera {
+    }
+  ]
+}
